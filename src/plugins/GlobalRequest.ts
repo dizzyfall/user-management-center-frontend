@@ -12,7 +12,7 @@ import {message} from 'antd';
  */
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
-  prefix: process.env.NODE_ENV === 'production' ? 'http://www.dizzyfall.cn' : undefined
+  prefix: process.env.NODE_ENV === 'production' ? 'http://106.53.173.123' : undefined
   // requestType: 'form',
 });
 
